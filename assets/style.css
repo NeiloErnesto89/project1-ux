@@ -1,3 +1,56 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* navigation */
+
+.navbar {
+    background-color: #1CA32A;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.main-container {
+    min-height: 80vh; 
+    background: url("../images/holbox.jpg") no-repeat bottom center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-bottom: 0;
+}
+
+.name {
+    position: relative;
+    font-size: 55px;
+    font-weight: bold;
+    top: 40px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    border: 0px;
+    padding: 1px;
+}
+
+h3 {
+    position: relative;
+    top: 130px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    border: 0px;
+    padding: 1px;
+}
+
+
