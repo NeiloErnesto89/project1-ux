@@ -18,7 +18,7 @@ body {
 }
 
 .main-container {
-    min-height: 80vh; 
+    min-height: 80vh;
     background: url("../images/holbox.jpg") no-repeat bottom center fixed;
     /* need a description ? */
     -webkit-background-size: cover;
@@ -54,3 +54,64 @@ h3 {
 }
 
 
+/* Footer */
+
+footer {
+    height: 35vh;
+    background-color: #1CA32A;
+
+}
+
+footer h5 {
+    margin: 10px;
+    padding: 0;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 0;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.row.row-stats i {
+    margin: 5px;
+    padding: 0;
+    height: 10vh;
+    min-height: 2px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+footer i {
+
+    color: white;
+}
+
+
+.inline-block {
+
+    display: inline-block;
+}
+
+/* special text, margin, padding etc */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.uppercase {
+
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 767px) {
+.hidden-sm-down {
+    display: none;
+    
+}
