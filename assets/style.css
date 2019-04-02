@@ -31,6 +31,21 @@ body {
     margin-bottom: 0;
 }
 
+.main1-container {
+    
+    min-height: 35rem; /* vh has different results on different screens*/
+    background: url("../images/ankor.wat.jpg") no-repeat bottom center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-bottom: 0;
+}
+
 .name {
     position: relative;
     font-size: 55px;
@@ -41,6 +56,18 @@ body {
     text-align: center;
     border: 0px;
     padding: 1px;
+}
+
+.name1 {
+    position: relative;
+    font-size: 55px;
+    font-weight: bold;
+    top: 40px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    border: 0px;
+    padding: 1px; 
 }
 
 h3 {
@@ -97,9 +124,7 @@ footer i {
     padding: 2px;
     margin: 2px ;
     display: block; 
-    font-size: 1rem;
-    
-    
+
 }
 
 /* special text, margin, padding etc */
