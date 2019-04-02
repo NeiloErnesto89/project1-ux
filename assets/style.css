@@ -18,7 +18,7 @@ body {
 }
 
 .main-container {
-    min-height: 80vh;
+    min-height: 35rem; /* vh has different results on different screens*/
     background: url("../images/holbox.jpg") no-repeat bottom center fixed;
     /* need a description ? */
     -webkit-background-size: cover;
@@ -57,8 +57,8 @@ h3 {
 /* Footer */
 
 footer {
-    height: 35vh;
     background-color: #1CA32A;
+    height: 15rem;
 
 }
 
@@ -74,11 +74,8 @@ footer h5 {
 }
 
 .row.row-stats i {
-    margin: 5px;
-    padding: 0;
-    height: 10vh;
-    min-height: 2px;
-    font-size: 20px;
+    margin-left: 5px;
+    padding: 15px;
     text-align: center;
     
 }
@@ -86,12 +83,23 @@ footer h5 {
 footer i {
 
     color: white;
+    text-align: center; 
 }
 
 
 .inline-block {
 
     display: inline-block;
+}
+
+.stats-text {
+    color: white;
+    padding: 2px;
+    margin: 2px ;
+    display: block; 
+    font-size: 1rem;
+    
+    
 }
 
 /* special text, margin, padding etc */
