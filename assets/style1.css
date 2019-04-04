@@ -3,25 +3,36 @@ body {
     /*margin: 0;*/
 }
 
+/* speacial margins, headers, padding */
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+/* .text-uppercase {
+   text-transform: uppercase; 
+} */
+
+
 /*  Navbar */
 
 .container-navbar {
     position: absolute;
     z-index: 1;
-    top:0;
+    top: 0;
     left: 0;
     padding-left: 0;
-    padding-right: 0; 
-    
+    padding-right: 0;
+
 }
 
 .navbar {
 
     background-color: #1CA32A;
-    margin: 0; 
+    margin: 0;
     border: 0;
-    opacity: 0.95; 
-    font-weight: bold; 
+    opacity: 0.95;
+    font-weight: bold;
 }
 
 .navbar .navbar-toggler {
@@ -34,8 +45,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
 
 .container-landing {
     height: 85vh;
@@ -74,13 +83,22 @@ body {
     width: 90px;
     height: 5px;
     border: 0;
-    background-color: #ffa31a;
+
 }
 
 .block-divider--short {
     width: 50px;
-    color: #fff;
-} 
+}
+
+.block-divider--orange {
+
+    background-color: #ffa31a;
+}
+
+.block-divider--white {
+
+    background-color: #fff;
+}
 
 
 /* Jumbotron */
@@ -104,11 +122,23 @@ body {
     margin: 5px;
 }
 
-
 /* Footer */
+
+footer {
+   background-color: #1CA32A; 
+}
 
 .container-footer {
     height: 25vh;
-    background-color: #1CA32A;
+    
 }
 
+.footer-header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-uppercase {
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
