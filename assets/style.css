@@ -1,5 +1,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%
+    width: 100%;
 }
 
 /* navigation */
@@ -17,9 +21,6 @@ body {
     background-color: rgba(0, 0, 0, 0.01);
 }
 
-.container {
-    height: 2rem;
-}
 
 .main-container {
     min-height: 35rem;
@@ -39,6 +40,7 @@ body {
 .main1-container {
 
     min-height: 35rem;
+    min-width: 100%;
     /* vh has different results on different screens*/
     background: url("../images/ankor.wat.jpg") no-repeat bottom center fixed;
     /* need a description ? */
@@ -49,7 +51,8 @@ body {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    margin-bottom: 0;
+    width: 100%;
+    margin: 0;
     z-index: -1;
 }
 
@@ -109,7 +112,9 @@ h3 {
 /* Tips */
 
 .tips-cards {
-    opacity: 0.8;
+    top: 50px;
+    left: 2px;
+    padding: opacity: 0.8;
     display: inline-table;
     justify-content: center;
     align-items: center;
@@ -140,6 +145,11 @@ h3 {
     -webkit-transition: all .5s ease-in;
 }
 
+/* .card:hover {
+    opacity: 1;
+}
+*/
+
 .card-body {
     padding: 15px;
     margin: 0;
@@ -147,13 +157,7 @@ h3 {
 
 .card-title {}
 
-/* Score Card*/
-
-.score-card {
-    
-}
-
-
+/* score-card/row-score */
 
 /*
 
@@ -246,8 +250,16 @@ h5 {
 }
 
 
+/* media queries */
+
 @media screen and (max-width: 767px) {
     .hidden-sm-down {
         display: none;
 
     }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        .main1-container {
+            height: 65rem;
+        }
+}

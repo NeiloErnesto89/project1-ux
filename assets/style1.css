@@ -1,0 +1,114 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*margin: 0;*/
+}
+
+/*  Navbar */
+
+.container-navbar {
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0; 
+    
+}
+
+.navbar {
+
+    background-color: #1CA32A;
+    margin: 0; 
+    border: 0;
+    opacity: 0.95; 
+    font-weight: bold; 
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+/*  Containers */
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container-landing {
+    height: 85vh;
+    /* different heights on different screens - test*/
+    background: url("../images/holbox.jpg") no-repeat center center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* Dividers */
+
+.block-divider {
+    width: 90px;
+    height: 5px;
+    border: 0;
+    background-color: #ffa31a;
+}
+
+.block-divider--short {
+    width: 50px;
+    color: #fff;
+} 
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.jumbotron-lead {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+/* Footer */
+
+.container-footer {
+    height: 25vh;
+    background-color: #1CA32A;
+}
+
