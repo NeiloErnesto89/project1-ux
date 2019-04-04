@@ -8,17 +8,22 @@ body {
     background-color: #1CA32A;
 }
 
-/* jumbotron */
+/* jumbotron/containers */
 
 .jumbotron {
     height: 100%;
     width: 100%;
-    padding: 0;
+    padding: 1px;
     background-color: rgba(0, 0, 0, 0.01);
 }
 
+.container {
+    height: 2rem;
+}
+
 .main-container {
-    min-height: 35rem; /* vh has different results on different screens*/
+    min-height: 35rem;
+    /* vh has different results on different screens*/
     background: url("../images/holbox.jpg") no-repeat bottom center fixed;
     /* need a description ? */
     -webkit-background-size: cover;
@@ -32,8 +37,9 @@ body {
 }
 
 .main1-container {
-    
-    min-height: 35rem; /* vh has different results on different screens*/
+
+    min-height: 35rem;
+    /* vh has different results on different screens*/
     background: url("../images/ankor.wat.jpg") no-repeat bottom center fixed;
     /* need a description ? */
     -webkit-background-size: cover;
@@ -44,7 +50,27 @@ body {
     -moz-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     margin-bottom: 0;
+    z-index: -1;
 }
+
+.main2-container {
+    min-height: 35rem;
+    /* vh has different results on different screens*/
+    background: url("../images/ho.chi.jpg") no-repeat bottom center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-bottom: 0;
+    z-index: -1;
+}
+
+
+/* names/titles */
 
 .name {
     position: relative;
@@ -58,18 +84,6 @@ body {
     padding: 1px;
 }
 
-.name1 {
-    position: relative;
-    font-size: 55px;
-    font-weight: bold;
-    top: 40px;
-    left: 10px;
-    color: #fff;
-    text-align: center;
-    border: 0px;
-    padding: 1px; 
-}
-
 h3 {
     position: relative;
     top: 130px;
@@ -80,12 +94,101 @@ h3 {
     padding: 1px;
 }
 
+.name1 {
+    position: relative;
+    font-size: 55px;
+    font-weight: bold;
+    top: 5px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    border: 0px;
+    padding: 1px;
+}
+
+/* Tips */
+
+.tips-cards {
+    opacity: 0.8;
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-xs-6 {
+    align-items: center;
+    padding: 0;
+}
+
+.col-sm-4 {
+    width: 30%;
+}
+
+/* cards */
+
+.card {
+    background-color: #fdfdfd;
+    border-radius: 1px;
+    width: 14rem;
+    left: 35px;
+    top: 25px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+}
+
+.card-body {
+    padding: 15px;
+    margin: 0;
+}
+
+.card-title {}
+
+/* Score Card*/
+
+.score-card {
+    
+}
+
+
+
+/*
+
+.tips-icon  { 
+    top: 50px;
+    left: 10px;
+    padding: 5px;
+} 
+
+.tips-icon i {
+    color: white;
+} 
+
+*/
+
+.stats-text1 {
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    display: block;
+}
+
+
+
 
 /* Footer */
 
 footer {
     background-color: #1CA32A;
     height: 15rem;
+
+}
+
+footer-tips {
+    height: 5rem;
 
 }
 
@@ -104,18 +207,14 @@ footer h5 {
     margin-left: 5px;
     padding: 15px;
     text-align: center;
-    
+
 }
 
 footer i {
 
     color: white;
-    text-align: center; 
+    text-align: center;
 }
-
-/*.i-tips i { 
-    color: orange;
-} */
 
 
 .inline-block {
@@ -126,8 +225,8 @@ footer i {
 .stats-text {
     color: white;
     padding: 2px;
-    margin: 2px ;
-    display: block; 
+    margin: 2px;
+    display: block;
 
 }
 
@@ -148,7 +247,7 @@ h5 {
 
 
 @media screen and (max-width: 767px) {
-.hidden-sm-down {
-    display: none;
-    
-}
+    .hidden-sm-down {
+        display: none;
+
+    }
