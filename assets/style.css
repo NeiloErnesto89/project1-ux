@@ -147,13 +147,14 @@ hr {
 .footer-header {
     height: 10vh;
     text-align: center;
-    margin-top: 5px;
 }
 
 .text-uppercase {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .inline-block {
