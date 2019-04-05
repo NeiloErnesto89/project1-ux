@@ -71,6 +71,25 @@ hr {
     position: relative;
 }
 
+.container-tips {
+    height: 80vh;
+    /* different heights on different screens - test*/
+    background: url("../images/ankor.wat.jpg") no-repeat center center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    position: relative;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -128,6 +147,21 @@ hr {
     font-style: italic;
     font-size: 25px;
     margin: 5px;
+}
+
+/* Tips */
+
+.row-tips {
+    height: 40vh;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.header-tips {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
 }
 
 /* Footer */
