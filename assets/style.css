@@ -130,9 +130,6 @@ hr {
     background-color: transparent;
 }
 
-.jumbotron-fluid {
-    /*padding-top: 50px; /* iphone top padding too close to Nav */
-}
 
 .jumbotron-header {
     color: #fff;
@@ -152,12 +149,12 @@ hr {
 /* Tips */
 
 .row-tips {
-    margin-top: 2px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
 .row-cards {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .header-tips {
@@ -167,17 +164,47 @@ hr {
     text-align: center;
 }
 
+
 /* Cards */
 
+.container-cards {
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+    color: #1CA32A;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-deck .card {
+    margin-bottom: 8px;
+}
+
 .card-body {
-    padding: 10px;
-    opacity: 0.9;
+    padding: .5rem;
+}
+
+.container-cards a {
+    color: #1CA32A;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-text {
+    padding: 2px;
+}
+
+.card-icon i {
+    color: #ffa31a;
 }
 
 /* Footer */
 
 #footer {
-    height: 45vh;
+    height: 47vh;
     background-color: #1CA32A;
     margin: 0;
 }
@@ -210,9 +237,9 @@ hr {
 
 .row-stats {
     text-align: center;
-    padding: 4px 10px;
+   /* padding: 4px 10px; */
     margin: 0;
-    /* stats row center*/
+    
 }
 
 .stats-text {
@@ -234,8 +261,10 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
-.hidden-xs-down {
+    .hidden-xs-down {
         display: none;
 
     }
 }
+
+
