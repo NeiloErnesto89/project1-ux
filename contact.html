@@ -52,7 +52,7 @@
         </div>
     </header>
 
-    <div class="container-fluid container-tips">
+    <div class="container-fluid container-tact">
 
         <div class="opaque-overlay">&nbsp;</div>
 
@@ -60,24 +60,40 @@
 
         <section id="contact">
 
-            <div class="row row-tips">
+            <div class="row row-header-contact">
                 <div class="col-12">
                     <div class="header">
-                        <h1 class="header-tips">Contact</h1>
+                        <h1 class="header-contact">Contact</h1>
                         <hr class="block-divider block-divider--short block-divider--white">
                     </div>
                 </div>
             </div>
 
-            <div class="row bg-color-contact">
+            <div class="row row-contact bg-color-contact">
                 <div class="col">
-                    <h3></h3>
-                    <h5></h5>
+                    <h3 class="contact-header text-center">Want to learn more?</h3>
+                    <h5 class="text-center d-none d-md-block">Reach out with ideas and/or questions</h5>
+                    
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/> 
+                            <!-- form-control is bs class adds styling-->
+                            <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required/> 
+                            <textarea rows="3" name="questions" id="questions" class="form-control" placeholder="Your questions &/or Ideas go here!" required/></textarea> 
+                            
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-success">Send Questions & Ideas</button>
+                            </div>
+                        </div>
+                        </form>
+                        
+                    </div>
                 </div>
             </div>
 
         </section>
-    
+
     </div>
 
     <section id="footer">
@@ -92,22 +108,22 @@
             <div class="row row-stats">
                 <div class="col-sm-4 col-6">
                     <p class="inline-block">
-                        <a href="https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change" target="_blank"><i class="fas fa-gas-pump fa-2x " aria-hidden="true"></i></a>
-                        <span class="stats-text"> 100 companies are responsible for 71% of global emissions</span>
+                        <a href="https://www.bbc.com/news/science-environment-34108017" target="_blank"><i class="fas fa-crow fa-2x" aria-hidden="true"></i></a>
+                        <span class="stats-text"> About 90% of seabirds have eaten plastic</span>
                     </p>
                 </div>
 
                 <div class="col-sm-4 col-6">
                     <p class="inline-block">
-                        <a href="http://time.com/4019277/trees-humans-deforestation/" target="_blank "><i class="fas fa-tree fa-2x " aria-hidden="true"></i></a>
-                        <span class="stats-text ">Humans cut down 15 billion trees each year</span>
+                        <a href="https://climate.nasa.gov/climate_resources/139/graphic-global-warming-from-1880-to-2018/" target="_blank "><i class="fas fa-temperature-high fa-2x" aria-hidden="true"></i></a>
+                        <span class="stats-text ">2018 was the fourth warmest year since modern recordkeeping began in 1880.</span>
                     </p>
                 </div>
 
                 <div class="col-sm-4 hidden-sm-down">
                     <p class="inline-block">
-                        <a href="https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide " target="_blank "><i class="fas fa-globe-europe fa-2x "aria-hidden="true "></i></a>
-                        <span class="stats-text ">Carbon dioxide levels today are higher than at any point in at least the past 800,000 years.</span>
+                        <a href="https://www.bbc.com/news/science-environment-31432515 " target="_blank "><i class="fas fa-trash fa-2x "aria-hidden="true "></i></a>
+                        <span class="stats-text ">It's estimated around 8 million tonnes of plastic waste find their way into the world's oceans each yea.</span>
                     </p>
                 </div>
             </div>

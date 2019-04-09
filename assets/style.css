@@ -90,6 +90,43 @@ hr {
     position: relative;
 }
 
+.container-tact {
+    height: 90vh;
+    /* different heights on different screens - test*/
+    background: url("../images/ho.chi.jpg") no-repeat center center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    position: relative;
+}
+
+.container-scores {
+    height: 80vh;
+    /* different heights on different screens - test*/
+    background: url("../images/hoi.an.jpg") no-repeat center center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    position: relative;
+}
 
 .opaque-overlay {
     position: absolute;
@@ -102,7 +139,6 @@ hr {
 
 
 /* Block Dividers */
-
 
 .block-divider {
     width: 90px;
@@ -148,11 +184,11 @@ hr {
     margin: 5px;
 }
 
-/* Tips - rows/headers */
+/* Tips - rows/headers/cards */
 
-.row-tips {
-    margin-top: 5px;
-    margin-bottom: 10px;
+.row-header-tips {
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .row-cards {
@@ -167,8 +203,7 @@ hr {
 }
 
 
-/* Cards */
-
+/* Cards within Tips section */
 
 .container-cards {
     margin: 0;
@@ -207,6 +242,54 @@ hr {
 
 
 
+/* Contact Page */
+
+.header-contact {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bg-color-contact {
+    opacity: 0.9;
+    background-color: #ffa31a;
+}
+
+.contact-header {
+    color: black;
+}
+
+/* Contact Form Section witin Contact Page */
+
+.row-header-contact {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.contact-header {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.row-contact {
+    margin: 5px;
+}
+
+.center-form {
+    padding: 5px;
+    margin: 0 auto;
+    /* how to center content*/
+    max-width: 80%;
+}
+
+button[type="submit"] {
+    margin: 5px;
+    color: #fff;
+}
+
+
 /* Footer */
 
 #footer {
@@ -219,7 +302,6 @@ hr {
     color: #fff;
 
 }
-
 
 .footer-header {
     height: 10vh;
