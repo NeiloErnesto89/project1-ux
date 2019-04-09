@@ -45,7 +45,7 @@ hr {
     border: 0;
 }
 
-/*  Containers */
+/*  Main Containers */
 
 .container-fluid {
     margin: 0;
@@ -90,6 +90,7 @@ hr {
     position: relative;
 }
 
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -100,7 +101,8 @@ hr {
 }
 
 
-/* Dividers */
+/* Block Dividers */
+
 
 .block-divider {
     width: 90px;
@@ -146,7 +148,7 @@ hr {
     margin: 5px;
 }
 
-/* Tips */
+/* Tips - rows/headers */
 
 .row-tips {
     margin-top: 5px;
@@ -167,10 +169,11 @@ hr {
 
 /* Cards */
 
+
 .container-cards {
     margin: 0;
     padding: 0;
-    opacity: 0.8;
+    opacity: 0.75;
     color: #1CA32A;
     font-weight: bold;
     font-style: italic;
@@ -178,10 +181,11 @@ hr {
 
 .card-deck .card {
     margin-bottom: 8px;
+    border: 0;
 }
 
 .card-body {
-    padding: .5rem;
+    padding: .25rem;
 }
 
 .container-cards a {
@@ -200,6 +204,8 @@ hr {
 .card-icon i {
     color: #ffa31a;
 }
+
+
 
 /* Footer */
 
@@ -237,9 +243,9 @@ hr {
 
 .row-stats {
     text-align: center;
-   /* padding: 4px 10px; */
+    /* padding: 4px 10px; */
     margin: 0;
-    
+
 }
 
 .stats-text {
@@ -266,5 +272,3 @@ hr {
 
     }
 }
-
-
