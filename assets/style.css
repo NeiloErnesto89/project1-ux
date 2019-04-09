@@ -147,6 +147,25 @@ hr {
     position: relative;
 }
 
+.container-media {
+     height: 80vh;
+    /* different heights on different screens - test*/
+    background: url("../images/paracas1.jpg") no-repeat center center fixed;
+    /* need a description ? */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    position: relative;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -192,7 +211,7 @@ hr {
     color: #fff;
     font-weight: bold;
     font-size: 50px;
-    margin: 10px;
+    margin-top: 30px;
 }
 
 .jumbotron-lead {
@@ -206,8 +225,8 @@ hr {
 /* Tips - rows/headers/cards */
 
 .row-header-tips {
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: -5px;
 }
 
 .row-cards {
@@ -311,7 +330,7 @@ button[type="submit"] {
 /* Eco-Scores */
 
 .header-scores {
-    
+
     color: #fff;
     font-weight: bold;
     font-size: 50px;
@@ -322,7 +341,7 @@ button[type="submit"] {
 /* About Page */
 
 .header-about {
-    
+
     color: #fff;
     font-weight: bold;
     font-size: 50px;
@@ -332,14 +351,27 @@ button[type="submit"] {
 
 .row-about {
     margin: 10px;
-    
+
 }
 
 .bg-color-about {
-    background-color: #fff; 
+    background-color: #fff;
 }
 
 
+/* Media */
+
+.row-header-media {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.header-media {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
 
 /* Footer */
 
