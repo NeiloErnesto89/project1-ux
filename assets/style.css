@@ -72,7 +72,7 @@ hr {
 }
 
 .container-tips {
-    height: 80vh;
+    height: 85vh;
     /* different heights on different screens - test*/
     background: url("../images/ankor.wat.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -240,6 +240,10 @@ hr {
     text-align: center;
 }
 
+.row-button {
+    
+    margin-top: 5px;
+}
 
 /* Cards within Tips section */
 
@@ -253,7 +257,7 @@ hr {
 }
 
 .card-deck .card {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     border: 0;
 }
 
