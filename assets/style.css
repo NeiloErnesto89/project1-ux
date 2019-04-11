@@ -148,7 +148,7 @@ hr {
 }
 
 .container-media {
-     height: 80vh;
+    height: 80vh;
     /* different heights on different screens - test*/
     background: url("../images/paracas1.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -241,7 +241,7 @@ hr {
 }
 
 .row-button {
-    
+
     margin-top: 5px;
 }
 
@@ -360,6 +360,11 @@ button[type="submit"] {
 
 .bg-color-about {
     background-color: #fff;
+}
+
+.about-card {
+    height: 15rem;
+    width: 20rem;
 }
 
 
