@@ -202,8 +202,13 @@ hr {
 
 /* Jumbotron */
 
-.jumbotron {
+/*
+.jumbotron-fluid {
     background-color: transparent;
+} */
+
+.main-jumbo {
+       background-color: transparent;
 }
 
 
@@ -221,6 +226,7 @@ hr {
     font-size: 25px;
     margin: 5px;
 }
+
 
 /* Tips - rows/headers/cards */
 
@@ -248,7 +254,7 @@ hr {
 /* Cards within Tips section */
 
 .container-cards {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     opacity: 0.75;
     color: #1CA32A;
@@ -382,11 +388,15 @@ button[type="submit"] {
     text-align: center;
 }
 
+.media-jumbo {
+    background-color: #ffa31a; 
+}
+
 /* Footer */
 
 #footer {
     height: 47vh;
-    background-color: #1CA32A;
+    background-color: #1CA32A; /* orange */
     margin: 0;
 }
 
