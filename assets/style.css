@@ -17,7 +17,7 @@ h4 {
 }
 
 hr {
-    margin-top: .5rem;
+    margin-top: .25rem;
 }
 
 /*  Navbar */
@@ -202,13 +202,8 @@ hr {
 
 /* Jumbotron */
 
-/*
-.jumbotron-fluid {
-    background-color: transparent;
-} */
-
 .main-jumbo {
-       background-color: transparent;
+    background-color: transparent;
 }
 
 
@@ -233,6 +228,7 @@ hr {
 .row-header-tips {
     margin-top: 25px;
     margin-bottom: -5px;
+    padding-top: 15px;
 }
 
 .row-cards {
@@ -253,6 +249,10 @@ hr {
 
 /* Cards within Tips section */
 
+.card {
+    background-color: #fff; 
+}
+
 .container-cards {
     margin: 10px;
     padding: 0;
@@ -263,7 +263,7 @@ hr {
 }
 
 .card-deck .card {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     border: 0;
 }
 
@@ -339,6 +339,10 @@ button[type="submit"] {
 
 /* Eco-Scores */
 
+.scores-jumbo {
+    height: 10rem;
+}
+
 .header-scores {
 
     color: #fff;
@@ -348,7 +352,7 @@ button[type="submit"] {
 
 }
 
-/* About Page */
+/* About Page  */
 
 .header-about {
 
@@ -358,6 +362,24 @@ button[type="submit"] {
     text-align: center;
 
 }
+
+.about-jumbo {
+    background-color: #ffa31a;
+    opacity: 0.9;
+    margin: 0px 5px;;
+    padding: 5px 10px;
+    
+}
+
+.blockquote {
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.blockquote i {
+    color: #fff;
+}
+
 
 .row-about {
     margin: 10px;
@@ -374,7 +396,7 @@ button[type="submit"] {
 }
 
 
-/* Media */
+/* Media  including video and audio clip */
 
 .row-header-media {
     margin-top: 20px;
@@ -389,14 +411,34 @@ button[type="submit"] {
 }
 
 .media-jumbo {
-    background-color: #ffa31a; 
+    background-color: #ffa31a;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.vid-header {
+    margin: 5px;
+    padding: 5px;
+}
+
+.audio-text {
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.audio-header {
+    padding-bottom: 15px;
 }
 
 /* Footer */
 
 #footer {
     height: 47vh;
-    background-color: #1CA32A; /* orange */
+    background-color: #1CA32A;
+    /* orange */
     margin: 0;
 }
 
