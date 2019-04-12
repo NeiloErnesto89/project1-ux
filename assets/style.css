@@ -129,7 +129,7 @@ hr {
 }
 
 .container-about {
-    height: 80vh;
+    height: 90vh;
     /* different heights on different screens - test*/
     background: url("../images/salar.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -148,7 +148,7 @@ hr {
 }
 
 .container-media {
-    height: 80vh;
+    height: 85vh;
     /* different heights on different screens - test*/
     background: url("../images/paracas1.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -250,12 +250,12 @@ hr {
 /* Cards within Tips section */
 
 .card {
-    background-color: #fff; 
+    background-color: #fff;
 }
 
 .container-cards {
-    margin: 10px;
-    padding: 0;
+    margin: 0px;
+    padding: 5px;
     opacity: 0.75;
     color: #1CA32A;
     font-weight: bold;
@@ -366,13 +366,14 @@ button[type="submit"] {
 .about-jumbo {
     background-color: #ffa31a;
     opacity: 0.9;
-    margin: 0px 5px;;
+    margin: 0px 5px;
+    ;
     padding: 5px 10px;
-    
+
 }
 
 .blockquote {
-    font-style: italic; 
+    font-style: italic;
     font-weight: bold;
 }
 
@@ -412,14 +413,15 @@ button[type="submit"] {
 
 .media-jumbo {
     background-color: #ffa31a;
+    opacity: .9;
     margin: 10px;
     padding: 10px 15px;
 }
 
-.vid-header {
+/* .vid-header {
     margin: 5px;
-    padding: 5px;
-}
+    padding: 5px; 
+}*/
 
 .audio-text {
     font-size: 1em;
@@ -429,9 +431,32 @@ button[type="submit"] {
     padding-top: 10px;
 }
 
+.audio-button-text {
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+}
+
+/*
 .audio-header {
     padding-bottom: 15px;
+} */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
 }
+
+.container-snaps {
+    margin-top: 10px;
+}
+
+.button-snaps {
+    margin-top: 10px;
+}
+
 
 /* Footer */
 
@@ -456,8 +481,8 @@ button[type="submit"] {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
 
 .inline-block {
