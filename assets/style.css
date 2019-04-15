@@ -110,7 +110,7 @@ hr {
 }
 
 .container-scores {
-    height: 90vh;
+    height: 93vh;
     /* to fit kitchen sink*/
     /* different heights on different screens - test*/
     background: url("../images/hoi.an.jpg") no-repeat center center fixed;
@@ -341,7 +341,8 @@ button[type="submit"] {
 /* Eco-Scores */
 
 .scores-jumbo {
-    background-color: #ffa31a;
+    background-color: transparent;
+    /* #ffa31a */
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 2px;
@@ -359,6 +360,11 @@ button[type="submit"] {
 
 }
 
+.score-card-eco {
+    color: #1CA32A;
+}
+
+
 /* About Page  */
 
 .header-about {
@@ -373,21 +379,26 @@ button[type="submit"] {
 .about-jumbo {
 
     background-color: #ffa31a;
-    opacity: 0.9;
+    opacity: 0.95;
     margin: 0px 5px;
     ;
     padding: 5px 10px;
-
+    
 }
-
-.blockquote {
+ /* formerly blockquote 
+.about-head  {
+    color: #fff;
     font-style: italic;
-    font-weight: bold;
-}
+    font-size: 20px; 
+} 
+
+
+
 
 .blockquote i {
     color: #fff;
-}
+} 
+*/
 
 
 .row-about {
@@ -423,7 +434,8 @@ button[type="submit"] {
     background-color: #ffa31a;
     /*  opacity stops carousel from working */
     margin: 10px;
-    padding: 10px 15px;
+    padding: 12px 15px;
+    
 }
 
 .card-img-top {
@@ -432,15 +444,15 @@ button[type="submit"] {
 }
 
 .vid-header {
-    background-color: #1CA32A; 
+    background-color: #1CA32A;
 }
 
 .audio-header {
-    background-color: #1CA32A; 
+    background-color: #1CA32A;
 }
 
 .snaps-header {
-    background-color: #1CA32A; 
+    background-color: #1CA32A;
 }
 
 
@@ -459,6 +471,8 @@ button[type="submit"] {
     color: #fff;
     padding-top: 10px;
 }
+
+
 
 /*
 .audio-header {
