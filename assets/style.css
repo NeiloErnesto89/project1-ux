@@ -252,7 +252,7 @@ hr {
 
 .card {
     background-color: #fff;
-}
+} 
 
 .container-cards {
     margin: 0px;
@@ -266,6 +266,7 @@ hr {
 .card-deck .card {
     margin-bottom: 8px;
     border: 0;
+    
 }
 
 .card-body {
@@ -360,8 +361,8 @@ button[type="submit"] {
 
 }
 
-.score-card-eco {
-    color: #1CA32A;
+.card {
+    background-color:  #1CA32A;
 }
 
 
@@ -378,23 +379,19 @@ button[type="submit"] {
 
 .about-jumbo {
 
-    background-color: #ffa31a;
+    background-color: #1CA32A;
     opacity: 0.95;
     margin: 0px 5px;
-    ;
     padding: 5px 10px;
     
 }
+
  /* formerly blockquote 
 .about-head  {
     color: #fff;
     font-style: italic;
     font-size: 20px; 
 } 
-
-
-
-
 .blockquote i {
     color: #fff;
 } 
