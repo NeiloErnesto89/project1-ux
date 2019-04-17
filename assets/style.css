@@ -45,7 +45,9 @@ hr {
     border: 0;
 }
 
+
 /*  Main Containers */
+
 
 .container-fluid {
     margin: 0;
@@ -53,7 +55,7 @@ hr {
 }
 
 .container-landing {
-    height: 80vh;
+    height: 85vh;
     /* different heights on different screens - test*/
     background: url("../images/holbox1.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -110,7 +112,7 @@ hr {
 }
 
 .container-scores {
-    height: 93vh;
+    height: 90vh;
     /* to fit kitchen sink*/
     /* different heights on different screens - test*/
     background: url("../images/hoi.an.jpg") no-repeat center center fixed;
@@ -130,7 +132,7 @@ hr {
 }
 
 .container-about {
-    height: 90vh;
+    height: 92vh;
     /* different heights on different screens - test*/
     background: url("../images/salar.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -149,7 +151,7 @@ hr {
 }
 
 .container-media {
-    height: 85vh;
+    height: 90vh;
     /* different heights on different screens - test*/
     background: url("../images/paracas1.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -207,7 +209,6 @@ hr {
     background-color: transparent;
 }
 
-
 .jumbotron-header {
     color: #fff;
     font-weight: bold;
@@ -224,7 +225,9 @@ hr {
 }
 
 
+
 /* Tips - rows/headers/cards */
+
 
 .row-header-tips {
     margin-top: 25px;
@@ -248,17 +251,23 @@ hr {
     margin-top: 5px;
 }
 
+
 /* Cards within Tips section */
 
+
 .card {
-    background-color: #fff;
+    background-color: #1CA32A;
 } 
+
+.bg-card-color {
+    background-color: pink; 
+}
 
 .container-cards {
     margin: 0px;
     padding: 5px;
     opacity: 0.85;
-    color: #1CA32A;
+    color: #fff;
     font-weight: bold;
     font-style: italic;
 }
@@ -313,7 +322,7 @@ hr {
 /* Contact Form Section witin Contact Page */
 
 .row-header-contact {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 5px;
 }
 
@@ -382,20 +391,9 @@ button[type="submit"] {
     background-color: #1CA32A;
     opacity: 0.95;
     margin: 0px 5px;
-    padding: 5px 10px;
+    padding: 5px 8px;
     
 }
-
- /* formerly blockquote 
-.about-head  {
-    color: #fff;
-    font-style: italic;
-    font-size: 20px; 
-} 
-.blockquote i {
-    color: #fff;
-} 
-*/
 
 
 .row-about {
@@ -412,6 +410,11 @@ button[type="submit"] {
     width: 20rem;
 }
 
+
+.media-text h5 { 
+   
+text-decoration: underline; 
+} 
 
 /* Media  including video and audio clip */
 
@@ -493,7 +496,7 @@ button[type="submit"] {
 /* Footer */
 
 #footer {
-    height: 47vh;
+    /* height: 47vh; */
     background-color: #1CA32A;
     /* orange */
     margin: 0;
