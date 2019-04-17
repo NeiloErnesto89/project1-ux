@@ -48,7 +48,6 @@ hr {
 
 /*  Main Containers */
 
-
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -74,7 +73,7 @@ hr {
 }
 
 .container-tips {
-    height: 85vh;
+    height: 90vh;
     /* different heights on different screens - test*/
     background: url("../images/ankor.wat.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -93,7 +92,7 @@ hr {
 }
 
 .container-tact {
-    height: 90vh;
+    height: 94vh;
     /* different heights on different screens - test*/
     background: url("../images/ho.chi.jpg") no-repeat center center fixed;
     /* need a description ? */
@@ -228,7 +227,6 @@ hr {
 
 /* Tips - rows/headers/cards */
 
-
 .row-header-tips {
     margin-top: 25px;
     margin-bottom: -5px;
@@ -254,13 +252,12 @@ hr {
 
 /* Cards within Tips section */
 
-
 .card {
     background-color: #1CA32A;
-} 
+}
 
 .bg-card-color {
-    background-color: pink; 
+    background-color: pink;
 }
 
 .container-cards {
@@ -275,7 +272,7 @@ hr {
 .card-deck .card {
     margin-bottom: 8px;
     border: 0;
-    
+
 }
 
 .card-body {
@@ -371,7 +368,7 @@ button[type="submit"] {
 }
 
 .card {
-    background-color:  #1CA32A;
+    background-color: #1CA32A;
 }
 
 
@@ -392,7 +389,7 @@ button[type="submit"] {
     opacity: 0.95;
     margin: 0px 5px;
     padding: 5px 8px;
-    
+
 }
 
 
@@ -411,10 +408,10 @@ button[type="submit"] {
 }
 
 
-.media-text h5 { 
-   
-text-decoration: underline; 
-} 
+.media-text h5 {
+
+    text-decoration: underline;
+}
 
 /* Media  including video and audio clip */
 
@@ -435,7 +432,7 @@ text-decoration: underline;
     /*  opacity stops carousel from working */
     margin: 10px;
     padding: 12px 15px;
-    
+
 }
 
 .card-img-top {
@@ -453,6 +450,14 @@ text-decoration: underline;
 
 .snaps-header {
     background-color: #1CA32A;
+}
+
+.vid-text {
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding-top: 10px;
 }
 
 
