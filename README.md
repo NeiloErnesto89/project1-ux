@@ -26,7 +26,7 @@ In particular, as part of this section we recommend that you provide a list of U
 Underneath is my intial wireframe that I designed on my own: 
 
 Inline-style: 
-![Wireframe page 1]("../images/wireframe_page1.jpg") "Wireframe page 1")
+![Wireframe page 1]("./images/wireframe_page1.jpg") "Wireframe page 1")
 
 I wanted the user story to stay flexible, the idea is that someone is perusing the material, obviously starting on the landing page but then using the navigation bar to go through the pages. The Tips, Scores and Media sections would be for people searching general information about the environment, with some facts and country rankings as well as photos, a video and audio file. The option is also there for users who would be interested, in reaching out to me for information, questions or a potential project. I find that those enviromentally inclined are very much willing to get involved but often the most difficult part is starting or finding someone to reach out to. So I aimed to provide a personal touch and platform for a connection via the About and Contact section. 
 
@@ -103,6 +103,7 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 Credits
+
 Content
 The text for section Y was copied from the Wikipedia article Z
 
@@ -112,11 +113,20 @@ W3 Schools was an enormous help, a found it to be a really useful and vital tool
 
 Bootstrap 4 was used throughout my project. 
 
+For the Navbar element, which is consitant throughout I used a combination of videos in testing and retesting, which were the following: 
+
+[Bootstrap 4 Navbar Concepts | BOOTSTRAP 4 TUTORIAL by Academind](https://www.youtube.com/watch?v=23bpce-5s8I&t=62s)  
+
+[Responsive Navbar with Bootstrap 4 by Clever Techie](https://www.youtube.com/watch?v=L0uNai3XyKQ&t=661s)
+
 
 Media
 The photos used in this site were obtained from ...
 
 All the photos were taken on my Iphone 5 by me. I made some adjustments to the tone on a few of the photos like on the tips section whereby I modified the photo for a different effect. 
+
+
+ 
 
 Acknowledgements
 

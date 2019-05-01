@@ -1,28 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eco-Friendly Fellow</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS Stylesheet-->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <!-- change back to just style.css -->
+
+    <title>Eco Friendly Fellow!</title>
 </head>
 
-<body>
-    <header>
-        <div class="container-fluid container-navbar">
+<body class="text-center">
+
+    <div class="cover-container2 d-flex mx-auto flex-column">
+
+        <header id="container-navbar">
+
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="index.html"><i class="fab fa-envira"></i> EcoFF</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
@@ -43,26 +54,25 @@
                     </ul>
                 </div>
             </nav>
-        </div>
-    </header>
 
-    <div class="container-fluid container-tips">
-        <div class="opaque-overlay">&nbsp;</div>
+        </header>
 
-        <!-- Main Tips Section -->
-        <section id="tips">
-            <div class="row row-header-tips">
-                <div class="col-12">
-                    <div class="header">
-                        <h1 class="header-tips">Tips</h1>
-                        <hr class="block-divider block-divider--short block-divider--white">
-                    </div>
-                </div>
+
+        <main class="container-tips mt-auto ">
+
+            <!-- Main Tips Section -->
+
+            <div class="jumbotron jumbotron-fluid main-jumbo2 text-center p-2 mb-1 mt-2">
+
+                <h1 class="jumbotron-header">Tips</h1>
+                <hr class="block-divider block-divider--short block-divider--white">
+
             </div>
+
 
             <!-- TIPS CARDS SECTION -->
 
-            <div class="container-fluid container-cards">
+            <div class="container-fluid container-cards p-2 mb-2">
                 <section id="cards">
 
                     <div class="card-deck">
@@ -109,44 +119,58 @@
                 </section>
             </div>
 
-        </section>
+
+        </main>
+
+
+        <footer class="container-fluid mt-auto">
+
+            <section id="footer">
+
+                <div class="row">
+                    <div class="col-12 footer-header">
+                        <h2 class="text-uppercase">Eco-Facts</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+
+                <div class="row row-stats">
+                    <div class="col-sm-4 col-6">
+                        <p class="inline-block">
+                            <a href="https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change" target="_blank"><i class="fas fa-water fa-2x" aria-hidden="true"></i></a>
+                            <span class="stats-text"> World demand for fresh water will exceed supply by 2030.</span>
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4 col-6">
+                        <p class="inline-block">
+                            <a href="http://time.com/4019277/trees-humans-deforestation/" target="_blank "><i class="fas fa-hamburger fa-2x" aria-hidden="true"></i></a>
+                            <span class="stats-text ">It takes 2,393 litres of water to produce 1 hamburger.</span>
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4 hidden-xs-down">
+                        <p class="inline-block">
+                            <a href="https://www.theguardian.com/sustainable-business/water-use-coffee-sustainable-profitable" target="_blank "><i class="fas fa-coffee fa-2x" aria-hidden="true"></i></a>
+                            <span class="stats-text ">1 cup of coffee requires 140 litres of water to produce.</span>
+                        </p>
+                    </div>
+                </div>
+
+
+            </section>
+        </footer>
+
     </div>
+    <!-- cover container-->
 
 
-    <section id="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 footer-header">
-                    <h2 class="text-uppercase">Eco-Facts</h2>
-                    <hr class="block-divider block-divider--short block-divider--white">
-                </div>
-            </div>
 
-            <div class="row row-stats">
-                <div class="col-sm-4 col-6">
-                    <p class="inline-block">
-                        <a href="https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change" target="_blank"><i class="fas fa-water fa-2x" aria-hidden="true"></i></a>
-                        <span class="stats-text"> World demand for fresh water will exceed supply by 2030.</span>
-                    </p>
-                </div>
-
-                <div class="col-sm-4 col-6">
-                    <p class="inline-block">
-                        <a href="http://time.com/4019277/trees-humans-deforestation/" target="_blank "><i class="fas fa-hamburger fa-2x" aria-hidden="true"></i></a>
-                        <span class="stats-text ">It takes 2,393 litres of water to produce 1 hamburger.</span>
-                    </p>
-                </div>
-
-                <div class="col-sm-4 hidden-xs-down">
-                    <p class="inline-block">
-                        <a href="https://www.theguardian.com/sustainable-business/water-use-coffee-sustainable-profitable" target="_blank "><i class="fas fa-coffee fa-2x" aria-hidden="true"></i></a>
-                        <span class="stats-text ">1 cup of coffee requires 140 litres of water to produce.</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 </body>
 
 </html>
