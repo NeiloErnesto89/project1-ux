@@ -160,7 +160,7 @@ background-color: rgba(28, 163, 42, 0.3);
 
 }
 
-.main-jumbo4 {
+.main-jumbo4 { /* media */
   background-color: unset;
 }
 
@@ -226,8 +226,6 @@ hr {
 }
 
 
-
-
 .container-landing {
   /*padding-bottom: 4rem; 
   height: 350px;*/
@@ -268,8 +266,6 @@ hr {
 }
 
 
-
-
 .jumbotron-header {
   color: #fff;
   font-weight: bold;
@@ -286,9 +282,7 @@ hr {
 }
 
 
-
 /* Tips - rows/headers/cards */
-
 
 
 .row-header-tips {
@@ -430,7 +424,6 @@ button[type="submit"] {
 }
 
 
-
 /* About Page  */
 
 .header-about {
@@ -487,8 +480,6 @@ button[type="submit"] {
 
 .media-jumbo {
   background-color: unset;
- /* background-color: #ffa31a; */
-
 
 }
 
