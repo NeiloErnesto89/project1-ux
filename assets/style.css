@@ -120,8 +120,49 @@ body {
   position: relative;
 }
 
+/* Container Tips section bg*/
 
+.container-tips1 {
+  background-color: rgba(255, 163, 26, 0.3); /* set main jumbo 2 to unset and added this container */
+}
 
+.container-tips2 { /* about */
+background-color: rgba(255, 163, 26, 0.3) /* opaque orange*/
+}
+
+.container-tips3 {
+background-color: rgba(28, 163, 42, 0.3);
+}
+
+.container-tips4 {
+background-color: rgba(28, 163, 42, 0.3);
+}
+
+.container-tips5 {
+background-color: rgba(28, 163, 42, 0.3);
+}
+
+/* Main Jumbotrons */
+
+.main-jumbo {
+  background-color: rgba(28, 163, 42, 0.3); /*transparent;*/
+  padding-bottom: 80px;
+  margin: 50px;
+}
+
+.main-jumbo2 {
+  background-color: unset; /*rgba(255, 163, 26, 0.3) ;*/
+
+}
+
+.main-jumbo3 {
+  background-color: transparent;
+
+}
+
+.main-jumbo4 {
+  background-color: unset;
+}
 
 /* special margins, rows, headers, padding */
 
@@ -167,6 +208,7 @@ hr {
 .navbar-nav {
 
   text-align: left;
+  list-style: none;
   /* to counter the body - text center inherited rule */
 }
 
@@ -184,6 +226,8 @@ hr {
 }
 
 
+
+
 .container-landing {
   /*padding-bottom: 4rem; 
   height: 350px;*/
@@ -199,7 +243,6 @@ hr {
   background-color: rgba(0, 0, 0, 0.2);
 }
  */
-
 
 /* Block Dividers */
 
@@ -225,28 +268,7 @@ hr {
 }
 
 
-/* Main Jumbotrons */
 
-.main-jumbo {
-  background-color: transparent;
-  padding-bottom: 80px;
-  margin: 50px;
-}
-
-.main-jumbo2 {
-  background-color: transparent;
-
-}
-
-.main-jumbo3 {
-  background-color: transparent;
-
-}
-
-.main-jumbo4 {
-  background-color: transparent;
-
-}
 
 .jumbotron-header {
   color: #fff;
@@ -266,6 +288,8 @@ hr {
 
 
 /* Tips - rows/headers/cards */
+
+
 
 .row-header-tips {
   margin-top: 25px;
@@ -299,7 +323,7 @@ hr {
 .container-cards {
   margin: 0px;
   padding: 15px;
-  opacity: 0.85;
+  opacity: 0.95;
   color: #fff;
   font-weight: bold;
   font-style: italic;
@@ -462,10 +486,9 @@ button[type="submit"] {
 }
 
 .media-jumbo {
-  background-color: #ffa31a;
-  /*  opacity stops carousel from working */
-  margin: 10px;
-  padding: 12px 15px;
+  background-color: unset;
+ /* background-color: #ffa31a; */
+
 
 }
 
