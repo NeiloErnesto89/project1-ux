@@ -38,12 +38,23 @@ I used a mobile-first approach, again focusing on simple and effcient design whe
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-Underneath is my intial wireframe that I designed on my own: 
+Underneath is my intial wireframe that I designed on my own using Balsamiq: 
 
 
-![Wireframe page 1](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe1.jpg "Wireframe Page 1")
+![Wireframe page 1](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe1.jpg "Wireframe Page 1 - Landing page ")
+
+![Wireframe page 2](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe2.jpg "Wireframe Page 2 - Tips section ")
+
+![Wireframe page 3](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe3.jpg "Wireframe Page 3 - Environmental Scores section ")
+
+![Wireframe page 4](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe4.jpg "Wireframe Page 4 - About section ")
+
+![Wireframe page 5](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe5.jpg "Wireframe Page 5 - Contact section ")
 
 
+Underneath is my intial wireframe looking at the mobile first approach that I designed on my own using Balsamiq: 
+
+![Wireframe mobile page ](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframemob.jpg "Wireframe Mobile Page  - Mobile page ")
 
 I wanted the user story to stay flexible, the idea is that someone is perusing the material, obviously starting on the landing page but then using the navigation bar to go through the pages. The Tips, Scores and Media sections would be for people searching general information about the environment, with some facts and country rankings as well as photos, a video and audio file. The option is also there for users who would be interested, in reaching out to me for information, questions or a potential project. I find that those enviromentally inclined are very much willing to get involved but often the most difficult part is starting or finding someone to reach out to. So I aimed to provide a personal touch and platform for a connection via the About and Contact section. 
 
