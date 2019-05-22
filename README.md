@@ -40,8 +40,8 @@ In particular, as part of this section we recommend that you provide a list of U
 
 Underneath is my intial wireframe that I designed on my own: 
 
-Inline-style: 
-![Wireframe page 1]("./images/wireframe_page1.jpg" "Wireframe page 1")
+
+![Wireframe page 1](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe1.jpg "Wireframe Page 1")
 
 
 
