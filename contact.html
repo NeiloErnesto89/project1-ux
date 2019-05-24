@@ -18,7 +18,6 @@
     <!-- CSS Stylesheet-->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 
-    <!-- change back to just style.css -->
 
     <title>Eco Friendly Fellow!</title>
 </head>
@@ -58,11 +57,11 @@
         </header>
 
 
-      <main class="container-tips4 mt-auto mb-2 ml-2 mr-2 ">
+        <main class="container-tips4 mt-auto mb-2 ml-2 mr-2 ">
 
-            <!-- Main Tips Section -->
+            <!-- Main Contact Section -->
 
-            <div class="jumbotron jumbotron-fluid main-jumbo4 text-center p-2 mb-5">
+            <div class="jumbotron jumbotron-fluid main-jumbo4 text-center p-2 mb-2">
 
                 <h1 class="jumbotron-header">Contact</h1>
                 <hr class="block-divider block-divider--short block-divider--white">
@@ -70,34 +69,41 @@
             </div>
 
 
-                <div class="container-fluid p-2 mb-3 mt-2">
+            <div class="container-fluid p-2 mb-3 mt-2">
 
-                    <div class="row row-contact bg-color-contact">
-                        <div class="col">
-                            <h3 class="contact-header text-center">Want to learn more?</h3>
-                            <h5 class="text-center d-none d-md-block">Reach out with ideas and/or questions</h5>
+                <div class="row row-contact bg-color-contact">
+                    <div class="col">
+                        <h3 class="contact-header text-center">Want to learn more?</h3>
+                        <h5 class="text-center d-none d-md-block">Reach out with ideas and/or questions</h5>
 
-                            <div class="center-form">
-                                <form>
-                                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                                    
-                                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                                    
-                                    <textarea rows="3" name="questions" id="questions" class="form-control" placeholder="Your message" required/></textarea>
+                        <div class="center-form">
+                            
+                            <form>
+                
+                                <label for="fullname" class="col-12 col-form-label">Name:</label>
+                                <input type="text" name="name" id="fullname" class=" form-control" placeholder="Name" required/>
+                                
 
-                                    <div class="form-row text-center">
-                                        <div class="col">
-                                            <button type="submit" class="btn btn-success">Submit</button>
-                                        </div>
+                                <label for="email" class="col-12 col-form-label">Email:</label>
+                                <input type="emailaddress" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+
+
+                                <label for="questions" class="col-12 col-form-label">Message:</label>
+                                <textarea rows="3" name="questions" id="questions" class="form-control" placeholder="Your message" required/></textarea>
+
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-success">Submit</button>
                                     </div>
+                                </div>
 
-                                </form>
+                            </form>
 
-                            </div>
                         </div>
                     </div>
                 </div>
-        </main> 
+            </div>
+        </main>
 
 
         <footer class="container-fluid mt-auto">
@@ -126,7 +132,7 @@
                         </p>
                     </div>
 
-                    <div class="col-sm-4 hidden-sm-down">
+                    <div class="col-sm-4 hidden-xs-down">
                         <p class="inline-block">
                             <a href="https://climate.nasa.gov/climate_resources/139/graphic-global-warming-from-1880-to-2018/" target="_blank "><i class="fas fa-temperature-high fa-2x" aria-hidden="true"></i></a>
                             <span class="stats-text ">2018 was the fourth warmest year since modern recordkeeping began in 1880.</span>

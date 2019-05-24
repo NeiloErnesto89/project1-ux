@@ -108,7 +108,7 @@ _https://neiloernesto89.github.io/project1-ux/contact.html?name=Neil+Smyth&email
 
 The About section has a simple layout, with links to my personal profiles on Github and Linkedin. I used a simple col-12 grid layout in this section, so as to keep the view simple. I also used a rounded photo, some text and icons. 
 
-This footer is also consistent throughout the site, on each page I give different pieces of easily digestable yet (I feel) interesting information that the user can click on and find out more. I used a 'hidden-xs-down' tag in the HTML so that depending on the Users view, the 3rd icon (on the righthand side) on the footer was hidden to give it a more asthecially pleasing look. 
+This footer is also consistent throughout the site, on each page I give different pieces of easily digestable yet (I feel) interesting information that the user can click on and find out more. I used a grid system of col-sm-4 col-6 on the footer and for the third icon I added a 'hidden-xs-down' tag in the HTML so that, depending on the Users view, the 3rd icon (on the righthand side) on the footer was hidden, to give it a more of an asthecially pleasing look. 
  
 ### Existing Features
 
@@ -140,6 +140,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 *For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as*
 
+
+
 . Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
@@ -168,7 +170,7 @@ I commited my updats often to Github, which is where my files were hosted.
 Here is my Github profile link: https://github.com/NeiloErnesto89
 
 
-Credits
+## Credits
 
 Content
 The text for section Y was copied from the Wikipedia article Z
@@ -183,7 +185,8 @@ For the Navbar element, which is consitant throughout I used a combination of vi
 
 [Bootstrap 4 Navbar Concepts | BOOTSTRAP 4 TUTORIAL by Academind](https://www.youtube.com/watch?v=23bpce-5s8I&t=62s)  
 
-[Responsive Navbar with Bootstrap 4 by Clever Techie](https://www.youtube.com/watch?v=L0uNai3XyKQ&t=661s)
+[Responsive Navbar with Bootstrap 4 by Clever Techie]
+(https://www.youtube.com/watch?v=L0uNai3XyKQ&t=661s)
 
 
 Media
