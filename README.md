@@ -176,7 +176,9 @@ I also refered to [Stack Overflow](https://stackoverflow.com/) for a number of q
 
 I typed all of the content myself. The following links were used as my biblography/reference point of information. Some quotes/headlines in the Footer(s) were taken directly from the source and used, as mentioned underneath. All of the environmental facts/tips/hacks on my site where taken and adapted from a myriad of renowned websites where I found the information and I provided the links. In some instances I used a direct quotes or titles as my quip, such as here: [direct headline from this article by the Guardian saying "just 100 companies responsible for 71% of global emissions, study says"](https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change)
 
-I used information gathered from the following sites were used throughout my site. Starting with the *Tips* section:
+### References - Links 
+
+I used information gathered from the following sites were used throughout my site. The following links are my bibliography of references. Some of the text in the footers were direct quotes taken from the articles linked underneath:
 
 [Less meat](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/meatless-meals/art-20048193)
 
@@ -189,15 +191,9 @@ I used information gathered from the following sites were used throughout my sit
 [Tips on helping to fight climate change](http://www.bbc.com/future/story/20181102-what-can-i-do-about-climate-change)
 
 
-*Eco-Scores Section*
-
 [Eco-Scores](http://www.bbc.com/travel/story/20190414-living-in-a-country-that-thinks-green)
 
 [Good Country Rankings](https://www.goodcountry.org/index/results)
-
-As well as the information found on the *footers* section throughout the website, again some direct quotations, headlines (often adapted) were used. Here are the links: 
-
-*Footers*
 
 ["100 companies responsible for 71% of global emissions, study says"](https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change)
 
@@ -241,4 +237,4 @@ All the photos were taken on my Iphone 5 by me. I made some adjustments to the t
 
 ## Acknowledgements
 
-I have always been interested in the topic of environment. It is a huge topic of concern and the one that is most detrimental to the entire earth. The idea for the website was the brain child of my wonderful partner Manon, who I received plenty of inspiration from . So hopefully we can use the site as a starting point to move forward with some ventures in the future.
+I have always been interested in the topic of the environment, its health and humans detrimental impact on our surrounds. It is a huge topic of concern and the one that is most pertinent to the entire earth's survival. The idea for the website was the brain child of my wonderful partner Manon, whom I received plenty of inspiration from. So hopefully we can use the site as a starting point to move forward with some ventures in the future.
