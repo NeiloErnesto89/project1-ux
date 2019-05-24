@@ -153,9 +153,9 @@ I commited my update often to Github, which is where my files were hosted.
 
 ## Credits
 
-My work was substantially helped via the course content, despite it being a slower process and subject to mishaps, I often tried to type out my code using the course videos as a guide. It was a bit more laborious but it was a excellent learning curve. 
+My work was substantially helped via the course content on the [Code Institue](https://codeinstitute.net/). Despite it being a slower process and subject to mishaps, I often tried to type out my code on my own accord using the course videos as a guide. It was a bit more laborious but it was a excellent learning curve. 
 
-W3 Schools was an enormous help, a found it to be a really useful and vital tool. I used a modal inside of a card which I took the modal from: 
+W3 Schools was an enormous help, a found it to be a really useful and vital tool. I used the example a modal inside for my own modal on the media and scores sections: 
 [W3 Schools](https://www.w3schools.com/w3css/w3css_modal.asp)
 
 Bootstrap 4 was used throughout my project such as in the cover template, found [here](https://getbootstrap.com/docs/4.0/examples/cover/)
@@ -174,7 +174,7 @@ I also refered to [Stack Overflow](https://stackoverflow.com/) for a number of q
 
 ### Content 
 
-I typed all of the content myself. The following links were used as my biblography/reference point of information. Some quotes/headlines from the Footers were taken directly from the source and used, as mentioned underneath. All of the environmental facts/tips/hacks on my site where taken and adapted from a myriad of renowned websites where I found the information and I provided the links. In some instances I used a direct quote or title as my quip such as here: [direct headline from this article by the Guardian saying "just 100 companies responsible for 71% of global emissions, study says"](https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change)
+I typed all of the content myself. The following links were used as my biblography/reference point of information. Some quotes/headlines in the Footer(s) were taken directly from the source and used, as mentioned underneath. All of the environmental facts/tips/hacks on my site where taken and adapted from a myriad of renowned websites where I found the information and I provided the links. In some instances I used a direct quotes or titles as my quip, such as here: [direct headline from this article by the Guardian saying "just 100 companies responsible for 71% of global emissions, study says"](https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change)
 
 I used information gathered from the following sites were used throughout my site. Starting with the *Tips* section:
 
