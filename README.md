@@ -1,12 +1,11 @@
 # **User Centric Front-End Development Milestone Project**
 
-# Project Title: Eco Friendly Fellow - a webpage for environmental tips and information
+# Project Title: Eco Friendly Fellow - a webpage for environmental tips and information: 
+*[Eco Friendly Fellow  ](https://neiloernesto89.github.io/project1-ux/)*
 
-### *[Eco Friendly Fellow  ](https://neiloernesto89.github.io/project1-ux/)*
-
-## *Design brief:*
- One or two paragraphs providing an overview of your project.
+## Design brief:
  
+*One or two paragraphs providing an overview of your project*
  
 >The goal of this project is to create a UX-centric website, focusing on the mobile to desktop design. We were expected to use the skills we have learned to date, particularly semantic HTML5 and CSS, to achieve this goal. 
 
@@ -22,7 +21,7 @@ I aim to use the site in the future for my own personal career and I plan in the
 
 ## UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+*Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things*
 
 With regards to UX, my overarching goal was to provide very simple website, that the User can navigate easily whilst digesting the information that has been presented, in a smooth and effcient manner. I wanted to keep the design very simple, easy to navigate, use some eye catching color (green, for example, is prominent and is often associated with eco-friendliness (e.g. the Green political party or Greepeace). I also use some photos that I took myself, which I found to be visually very stimulating, but without taking too much away from the content. This balance was suprisingly tricky to achieve at times but I feel I found it. 
 
@@ -45,11 +44,15 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 Underneath is my intial wireframe that I designed on my own using Balsamiq, focusing this time on the desktop approach: 
 
+### Landing Page
+
 ![Wireframe page 1](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe1.jpg "Wireframe Page 1 - Landing page ")
 
 Figure 1. the Landing page
 
 Originally, I planned to use statistics (pie charts, bar charts  etc.) however I later settled on icons using Font Awesome (with links and a short piece of text) to keep the information as simple as possible and as astheically uniform as possible. 
+
+### Tips Section
 
 ![Wireframe page 2](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe2.jpg "Wireframe Page 2 - Tips section ")
 
@@ -57,6 +60,7 @@ Figure 2. the Tips section
 
 I decided to make the icon sizes a bit smaller and I didn't incorporate the footer or the navbar color (just keeping the hamburger icon). 
 
+### Environmental Scores Section
 
 ![Wireframe page 3](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe3.jpg "Wireframe Page 3 - Environmental Scores section ")
 
@@ -64,22 +68,26 @@ Figure 3. the Environmental Scores section
 
 I was rather ambitious in this section and wanted to achieve something similar to https://www.numbeo.com/pollution/comparison.jsp , which is a pollution city comparison tool whereby you choose from a list of cities, 2 cities to compare on a number different factors e.g. Air Pollution. I still harbour this ambition to create this program but for the first project, after discussing with my Mentor, we decided just to keep this section a bit more simple.
 
+### About Section
+
 ![Wireframe page 4](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe4.jpg "Wireframe Page 4 - About section ")
 
 Figure 4. the About section
 
 I later on decided to keep the text to a minimum and not focus on the 'download my resume section' as I wanted to make it less about myself and more about the content.
 
+### Contact Section
+
 ![Wireframe page 5](https://github.com/NeiloErnesto89/project1-ux/blob/master/images/wireframe5.jpg "Wireframe Page 5 - Contact section ")
 
 Figure 5. the Contact section
 
-Again, I kept it simple and stuck to the basic idea of a contact section, with a simple form. A section which I hope to improve on as I learn more. 
+Again, I kept it simple and stuck to the basic idea of a contact section, with a simple form. A section which I hope to improve on as I learn more. Also, in my wireframe I didn't add in a media section as it was added in later on due to the project guideline requirements. 
 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+*In this section, you should go over the different parts of your project, and describe each in a sentence or so*.
 
 I decdied upon having a website with 6 seperate pages, all having a generally identical layout including a navbar, main container jumbotron/content etc and footer. For each separate page the content was adapted to suit the pages needs. I used the Bootstrap cover template to wrap the pages contents in ( https://getbootstrap.com/docs/4.0/examples/cover/ ) so the height would adjust automatically, depending on the Users viewport.  
 
@@ -103,6 +111,7 @@ The About section has a simple layout, with links to my personal profiles on Git
 This footer is also consistent throughout the site, on each page I give different pieces of easily digestable yet (I feel) interesting information that the user can click on and find out more. I used a 'hidden-xs-down' tag in the HTML so that depending on the Users view, the 3rd icon (on the righthand side) on the footer was hidden to give it a more asthecially pleasing look. 
  
 ### Existing Features
+
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -111,8 +120,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-I feel there is plenty of room for feature implementation so I hope as I develop as a developer that I can adapt the site, adding more technical complexity but keeping it simple and user-friendly.  
-Another feature idea
+I feel there is plenty of room for feature implementation so I hope as I develop as a developer that I can adapt the site, adding more technical complexity but keeping it simple and user-friendly. As mention previously, I wanted to have a 'city pollution comparision' as a main technical feature of the website, however I will leave that one on the long finger, until I have the necessary exepience under my belt. 
 
 ## Technologies Used 
 
@@ -126,26 +134,24 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+*In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals*
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+*Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them*
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+*For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as*
 
 . Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid and verify that a success message appears
     
 
-At the beginning I did all of my testing on Google Chrome. However, I soon realised that Firefox, Safari and Internet Explore (among others) are still widely used, so I begain using them. Getting used to different dev-tools was a good exercise 
-
+At the beginning I did all of my testing on Google Chrome. However, I soon began checking out the page on Firefox, Safari and Microsoft Edge. Getting used to different dev-tools was a good exercise. I have an Iphone 5 so I often tested on this mobile. 
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-The problems I encountered varied widely but I found them to be extremely satisfying to overcome. One issue was figuring out how to override Bootstrap classes. 
-I found the bootstrap cards to be a finicky at times. 
+The problems I encountered varied widely but I found them to be extremely satisfying to overcome. One issue was figuring out how to override Bootstrap classes. I actually implemented the site cover container towards the end of my project, which was difficult to implement as I kept getting errors with regards to the different container heights which I have previously had. I also found the bootstrap cards to be a finicky at times. 
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
@@ -157,14 +163,10 @@ In particular, you should provide all details of the differences between the dep
 - Different configuration files?
 - Separate git branch?
 
-I commited my updated often to Github, which is where my files were hosted
+I commited my updats often to Github, which is where my files were hosted. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+Here is my Github profile link: https://github.com/NeiloErnesto89
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 Credits
 
