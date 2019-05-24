@@ -174,7 +174,7 @@ I also refered to [Stack Overflow](https://stackoverflow.com/) for a number of q
 
 ### Content 
 
-I typed all of the content myself. The following links were used as my biblography/reference point of information. Some quotes/headlines in the Footer(s) were taken directly from the source and used, as mentioned underneath. All of the environmental facts/tips/hacks on my site where taken and adapted from a myriad of renowned websites where I found the information and I provided the links. In some instances I used a direct quotes or titles as my quip, such as here: [direct headline from this article by the Guardian saying "just 100 companies responsible for 71% of global emissions, study says"](https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change)
+I typed all of the content myself. The following links were used as my biblography/reference point of information. Some quotes/headlines in the **Footer** were taken directly from the source and used such as [direct headline from this article by the Guardian saying "just 100 companies responsible for 71% of global emissions, study says"](https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change). All other environmental facts/tips/hacks on my site where taken and adapted from a myriad of renowned websites, where I found the information and I provided the links. As mentioned some instances I used a direct quotes or titles as my quip. 
 
 ### References - Links 
 
@@ -232,7 +232,7 @@ I used information gathered from the following sites were used throughout my sit
 
 ## Media
 
-All the photos were taken on my Iphone 5 by me. I made some adjustments to the tone on a few of the photos like on the tips section whereby I modified the photo for a different effect. 
+All the photos were taken on my Iphone 5 by me. I made some adjustments to the tone on a few of the photos like on the tips section whereby I modified the photo for a different effect. The Youtube [video](https://www.youtube.com/embed/OagTXWfaXEo) was taken from the channel [Lavendarie}(https://www.youtube.com/channel/UC-ga3onzHSJFAGsIebtVeBg) and the audio file was embedded from the Blindboy podcast on [Spotify](https://open.spotify.com/embed-podcast/show/7HinkS0WZqDuMXYh02EUY1)
 
 
 ## Acknowledgements
